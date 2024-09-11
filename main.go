@@ -1,6 +1,8 @@
 package main
-import "fmt"
+import "github.com/Ameer-Amr/LearnGo/basics"
 
 func main() {
-    fmt.Println("Hi")
+    basics.PrintHelloWorld()
+    basics.StarPyramid()
+    basics.FindOddOrEven()
 }
